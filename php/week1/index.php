@@ -18,9 +18,6 @@ echo "Welkom " . $naam . "!";
 ?>
 <br>
 <?php
-
-/* deze code bevat veel fouten
-   haal alle fouten eruit!
    
 $mijnNaam="Erencan";
 $jouwNaam="Serkan";
