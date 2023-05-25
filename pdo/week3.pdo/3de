@@ -1,0 +1,45 @@
+<?php
+//Deel 1
+$myArray = ['auto','fiets','brommer','bus','vliegtuig','trein'];
+$myArray[]='tram';
+$myArray[0]
+$myArray[1]
+$myArray[2]
+$myArray[3]
+$myArray[4]
+$myArray[5]
+echo $myArray 
+
+
+//Deel 2
+$aantalelementen = count($myArray);
+echo "het array heeft" . @$aantalelementen . "elementen";
+$myArray[] = 'boot'
+$aantalelementen = count($myArray)
+echo "het array heeft" . $aantalelementen . "elementen"
+
+
+//Deel 3
+
+// regel 2 = bar
+// regel 5 = 4
+// regel 8 = Toyota
+// regel 9 = 3
+// regel 12 = 5
+// regel 19 = 4
+
+
+//Deel 4A
+$cijfersPHP = [4.4, 4.6, 5.6, 6.1, 7.6, 7.2,];
+
+$gemiddelde = round(array_sum($cijfersPHP) / count($cijfersPHP), 2);
+echo "<br>"
+echo $gemiddelde;
+
+//Deel 4B
+
+//Ik denk dat het beter is om de regels samen te voegen, omdat het duidelijker is en overzichtelijker.
+
+
+?>
+
